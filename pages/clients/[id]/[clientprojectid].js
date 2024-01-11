@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 function SelectedClientProjectPage(){
     const router = useRouter();
-    // console.log(router.query);
+    console.log(router.query);
     //here we'll get both [id] and [clientprojectid] concrete value
 
     return (
