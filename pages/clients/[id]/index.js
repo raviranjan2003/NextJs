@@ -1,6 +1,12 @@
+import { useRouter } from "next/router";
+
 function ClientProjectPage(){
+    const router = useRouter();
+    console.log(router.query);
     return (
-        <h1>The Projects of a given Client</h1>
+        <div>
+            <h1>The Projects of a given Client</h1>
+        </div>
     )
 }
 
